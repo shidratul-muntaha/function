@@ -8,6 +8,79 @@
 <body>
    
     
+<h1>String methods</h1>
+    
+<h1 id="d" style="color: brown;"></h1>
+
+
+    
+    <script>
+    
+    let number=30;
+    let an=40;
+  
+//    unfined
+    let unfined;
+    console.log("unfined is -->"+(unfined));
+    
+    // null
+    const name= null;
+    console.log(name);
+   
+  
+
+    // number
+    console.log("number is-->"+(number));
+    console.log(number-an);
+
+
+    // string
+    let string="Animal"
+    console.log("string is--->"+(string));
+    // boolean
+    let boolean=number<an;
+    console.log(boolean);
+    // arrey
+    let g= ["bird","cat","dog","cow"]
+    console.log(g[1]);
+
+    // Object
+    let Animal={
+        Name:"CAT",
+        Color:"black",
+        Food:"Fish"
+    };
+    console.log(Animal.Name);
+
+
+
+
+
+    // function
+    function na() {
+   console.log("Undefined: Represents an uninitialized variable or absence of a value.");
+   console.log("Null: Represents the intentional absence of any object value.");
+   console.log("Boolean: Represents a logical entity and can have two values: true or false.");
+   console.log("Number: Represents numeric values, both integers and floating-point numbers.");
+   console.log("String: Represents a sequence of characters enclosed in single  or double  quotes.");
+   console.log("Symbol: Introduced in ECMAScript 6 (ES6), represents a unique identifier.");
+   console.log("Object: Represents a collection of key-value pairs. Objects can be created using curly braces");
+   console.log("Array: A subtype of object, represents a collection of elements arranged in an ordered list.");
+   console.log("Function: A subtype of object, functions are " );
+}
+na()
+
+
+
+// js object
+var brotherInfo={
+name:'MUSTAK',
+address:"HOBIJANJ",
+phoneNo:"#######",
+dateofbirth:"05-11-2007",
+dateofdie:'01-05-2003'
+}
+console.log("js object-->"+(brotherInfo.dateofdie));
 
 
 
@@ -15,9 +88,9 @@
 
 
 
-
-
-    <script>// function peramater
+ 
+    
+    // function peramater
 
         function printName(firstName, lastName ){
             console.log(firstName+" "+lastName);
@@ -71,6 +144,16 @@
         let firstNum=+prompt("Enter first number");
         let lastNum=+prompt("Enter last number");
         
-        sum(firstNum,lastNum)</script>
+        sum(firstNum,lastNum)
+        
+        // string method
+        
+        var text = "Rabbit";
+document.getElementById("d").innerHTML = text.charAt(0);
+        
+        
+        
+        
+        </script>
 </body>
 </html>
